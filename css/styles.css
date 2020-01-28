@@ -14,10 +14,7 @@ a:hover {
 }
 
 body {
-    background-image: url(../images/bg-img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+    background-color: aliceblue;
 }
 #profile {
     background-color: #cf455c;
