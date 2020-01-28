@@ -6,7 +6,7 @@ a:hover {
     color: inherit;
 }
 #container {
-    margin: 50px auto;
+    margin: 100px auto 0;
     width: 860px;
 }
 #content {
