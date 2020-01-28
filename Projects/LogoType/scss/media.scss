@@ -1,0 +1,225 @@
+@media (max-width: 1156px) {
+	.services {
+		&__items {
+			display: block;
+		}
+		&__item {
+			max-width: 	80%;
+			min-height: 330px;
+			margin: 30px auto;
+		}
+	}
+	.form {
+		&__box {
+			max-width: 100%;
+		}
+		&__inner {
+			background: none;
+			padding-bottom: 60px;
+		}
+		&__box-inner {
+			display: block;
+			.jq-selectbox__select {
+				margin-bottom: 10px;
+			}
+		}
+		&__box-left, &__box-right {
+			max-width: 100%;
+		}
+	}
+	.news {
+		padding-bottom: 60px;
+		&__inner {
+			display: block;
+		}
+		&__slider {
+			max-width: 100%;
+			margin-bottom: 90px;
+		}
+		&__blog {
+			display: block;
+			max-width: 100%;
+			margin-bottom: 30px;
+			&:after {
+				content: "";
+				clear: both;
+				display: block;
+			}
+		}
+		&__images {
+			float: left;
+			margin-right: 50px;
+		}
+
+	}
+}
+
+@media (max-width: 1050px) {
+	.footer {
+		&__inner {
+			display: block;
+		}
+		&__map {
+			max-width: 100%;
+		}
+		&__info {
+			max-width: 100%;
+			margin-bottom: 25px;
+			text-align: center;
+		}
+	}
+}
+
+@media (max-width: 900px) {
+	.slider {
+		.slick-btn {
+			display: none !important;
+		}
+	}
+	.services {
+		&__top {
+			display: block;
+		}
+		&__title-box {
+			padding-left: 0;
+			text-align: center;
+			margin: 0 auto 30px;
+			&:before {
+				display: none;
+			}
+		}
+		&__btn {
+			text-align: center;
+		}
+	}
+	.form__title-box, .news__title-box {
+		padding-left: 0;
+		text-align: center;
+		margin: 0 auto 30px;
+		&:before {
+			display: none;
+		}
+	}
+	.form__box {
+		padding-top: 0;
+	}
+	.advantages {
+		&__inner {
+			display: block;
+		}
+		&-item {
+			max-width: 100%;
+			margin-bottom: 25px;
+		}
+	}
+	.news {
+		&__top {
+			display: block;
+		}
+		&__btn {
+			text-align: center;
+		}
+	}
+	
+}
+
+@media (max-width: 700px) {
+	.header {
+		&__contacts {
+			text-align: center;
+		}
+		&__btn {
+			float: none;
+			display: inline-block;
+		}
+		&__btn-menu {
+			display: block;
+		}
+		&__fixed {
+			min-height: 85px;
+		}
+	}
+	.menu {
+		ul {
+			display: none;
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin-top: 20px;
+			z-index: 50;
+		}
+		li {
+			display: block;
+			text-align: center;
+		}
+		li + li {
+			padding-left: 0;
+		}
+		a {
+			display: block;
+			background-color: #ffc222;
+			border-top: 1px solid #fff;
+			border-bottom: 1px solid #fff;
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.services {
+		&__item {
+			max-width: 	100%;
+			min-height: 375px;
+			&-link {
+				margin-right: 45px;
+			}
+		}
+	}
+	.news {
+		&__slider {
+			padding: 50px 15px 25px 25px;
+		}
+		&__inner {
+			.slick-prev {
+				right: 40px;
+			}
+			.slick-next {
+				right: -15px;
+			}
+			.slick-btn {
+				bottom: -105px;
+			}
+		}
+		&__images {
+			float: none;
+		}
+	}
+}
+
+@media (max-width: 414px) {
+	.slider {
+		&__title {
+			font-size: 24px;
+		}
+		&__text {
+			font-size: 16px;
+		}
+	}
+	.advantages-item {
+		padding: 0;
+	}
+}
+
+@media (max-width: 375px) {
+	.header__email {
+		padding-right: 30px;
+	}
+	.footer__title {
+		line-height: 30px;
+	}
+}
+
+@media (min-width: 700px) {
+	.menu ul {
+		display: block !important;
+	}
+}
