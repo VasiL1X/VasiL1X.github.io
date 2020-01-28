@@ -11,7 +11,7 @@ h2,
 h3,
 h4,
 h5,
-h6{font-family: 'Teko', sans-serif!important;}
+h6{font-family: 'Teko', sans-serif !important;}
 .no-margin {
     margin: 0px;
 }
@@ -477,5 +477,6 @@ button#green-color {
     padding-bottom: 20px;
 }
 
-
-/*#a53460*/
+.container {
+    max-width: 100% !important;
+}
