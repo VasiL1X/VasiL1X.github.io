@@ -222,3 +222,8 @@ a.tab-profile.active {
     padding-top: 10px;
     letter-spacing: 1px;
 }
+@media (min-width: 992px) {
+    .container {
+        min-width: 100% !important;
+    }
+}
