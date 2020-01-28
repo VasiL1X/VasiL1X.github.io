@@ -12,7 +12,7 @@ html, body {
 	margin: 0;
 }
 body {
-	background: url(images/bfg.jpg) no-repeat center top fixed;
+	background: url(images/bfg.jpg) repeat-y center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

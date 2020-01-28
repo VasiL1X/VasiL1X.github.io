@@ -14,11 +14,13 @@ a:hover {
 }
 
 body {
-    background-color: aliceblue;
+    background: linear-gradient(to right, rgb(18, 112, 138) 0%, rgba(117,189,209,1) 59%, rgb(18, 112, 138) 100%);
 }
 #profile {
-    background-color: #cf455c;
-    background-image: url(../images/header-shadow.png);
+    /* background-color: #cf455c; */
+    /* background-image: url(../images/header-shadow.png); */
+    /* background: linear-gradient(135deg, rgb(126, 23, 40) 0%, #cf455c 55%, rgba(109,0,21,1) 100%); */
+    background: linear-gradient(to right, rgb(3, 52, 66) 0%, rgba(117,189,209,1) 32%, rgb(18, 112, 138) 100%);
     background-position: center bottom;
     background-repeat: repeat-x;
     overflow: hidden;
@@ -133,7 +135,7 @@ header {
 }
 a.tab-profile.active {
     pointer-events: none;
-    color: #cf455c;
+    color: #16738c;
     
 }
 .tabs li > a > i {
@@ -222,8 +224,4 @@ a.tab-profile.active {
     padding-top: 10px;
     letter-spacing: 1px;
 }
-@media (min-width: 992px) {
-    .container {
-        min-width: 100% !important;
-    }
-}
+
