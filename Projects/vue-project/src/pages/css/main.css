@@ -1,0 +1,58 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+.bg-none {
+	background: none;
+	border: none;
+	outline: none;
+}
+.fill-80-viewport {
+	height: 80vh;
+}
+.btn-select {
+	background: white;
+	width: 150px;
+	border-radius: 15px;
+}
+form {
+  position: relative;
+  width: 200px;
+}
+input {
+  width: 100%;
+  height: 35px;
+  padding-left: 10px;
+  border: 1px solid #575761;
+  border-radius: 15px;
+  outline: none;
+  background: #FFFFFF;
+  color: #9E9C9C;
+}
+.add, .search {
+  width: 35px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+}
+.add {
+	background: #575761;
+  border-radius: 50%;
+}
+.add:before {
+  content: "\f067";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.search {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  background: #575761;
+  border-radius: 5px 15px 15px 5px;
+}
+.search:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #FFFFFF;
+}
